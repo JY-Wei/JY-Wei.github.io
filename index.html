@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
     <script src="digitalclock.js" async></script>
   </head>
-  <body>
+  <body onload="startTime()">
     <center>
     <h2>1.Profile</h2>
     <a href="https://www2.ck.tp.edu.tw/">Chien Kuo High School </a>
@@ -33,7 +33,12 @@
     Already use css to change background color, text size. font and clock looks.
     <h2>7.Clock</h2>
     Here is Clock.
-    <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+    <div class="line">
+      <div class="time">
+      <span id="time">ERROR</span>
+      <span id="date">ERROR</span>
+    </div>
+    </div>
     </center>
   </body>
 </html>
