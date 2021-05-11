@@ -9,8 +9,16 @@ function showTime(){
     s = (s < 10) ? "0" + s : s;
     
     var time = h + ":" + m + ":" + s ;
-    document.getElementById("MyClockDisplay").innerText = time;
-    document.getElementById("MyClockDisplay").textContent = time;
+    
+    var t = setTimeout(startTime, 500);
+    n = new Date();
+    y = n.getFullYear();
+    mo = n.getMonth() + 1;
+    d = n.getDate();
+    var time2 = mo + " " + d + " " + y + time;
+    
+    document.getElementById("MyClockDisplay").innerText = time2;
+    document.getElementById("MyClockDisplay").textContent = time2;
     
     setTimeout(showTime, 1000);
     
