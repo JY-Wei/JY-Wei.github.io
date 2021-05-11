@@ -23,6 +23,4 @@ function checkTime(i) {
   }
   return i;
 }
-setInterval(() => {
-  document.title = new Date().toLocaleTimeString();
-}, 1);
+setInterval(() => {}, 1);
