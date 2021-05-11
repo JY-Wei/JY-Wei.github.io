@@ -1,7 +1,11 @@
 html {
   background-color: #4ADDDD;
-  font-size: 14px;
+  font-size: 18px;
   font-family: 'Source Code Pro', monospace;
+}
+
+h2 {
+  font-size: 50px;
 }
 
 a:visited {
