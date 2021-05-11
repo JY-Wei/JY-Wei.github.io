@@ -15,7 +15,7 @@ function showTime(){
     y = n.getFullYear();
     mo = n.getMonth() + 1;
     d = n.getDate();
-    var time2 = mo + " " + d + " " + y + time;
+    var time2 = mo + " " + d + " " + y + " " + time;
     
     document.getElementById("MyClockDisplay").innerText = time2;
     document.getElementById("MyClockDisplay").textContent = time2;
