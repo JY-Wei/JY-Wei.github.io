@@ -1,10 +1,11 @@
 html {
   background-color: #4ADDDD;
-}
-
-html {
   font-size: 14px;
   font-family: 'Source Code Pro', monospace;
+}
+
+a:visited {
+  color: blue;
 }
 
 a:hover {
