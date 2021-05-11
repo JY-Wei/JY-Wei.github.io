@@ -13,10 +13,9 @@ a:hover {
 }
 
 div.time {
-  text-align: center;
-  font-size: 150px;
+  font-size: 18px;
   position: relative;
-  color: grey;
+  color: black;
   letter-spacing: 2px;
 }
 
