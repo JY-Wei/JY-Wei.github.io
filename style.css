@@ -1,3 +1,9 @@
 html {
   background-color: #2BB4B4;
 }
+a:hover {
+  color: red;
+}
+a:visited {
+  color: blue;
+}
