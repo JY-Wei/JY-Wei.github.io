@@ -14,7 +14,7 @@ function startTime() {
   m = n.getMonth() + 1;
   d = n.getDate();
 
-  document.getElementById("date").innerHTML = m + "•" + d + "•" + y;
+  document.getElementById("date").innerHTML = m + " " + d + " " + y;
 }
 
 function checkTime(i) {
