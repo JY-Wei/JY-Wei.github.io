@@ -1,11 +1,11 @@
 html {
   background-color: #4ADDDD;
-  font-size: 18px;
+  font-size: 25px;
   font-family: 'Source Code Pro', monospace;
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 a:visited {
@@ -17,7 +17,7 @@ a:hover {
 }
 
 div.time {
-  font-size: 18px;
+  font-size: 30px;
   position: relative;
   color: black;
   letter-spacing: 2px;
